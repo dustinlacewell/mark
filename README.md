@@ -37,7 +37,7 @@ The `--help` flag shows a little more information:
 
 # Markfiles
 
-Markfiles are [YAML documents](https://en.wikipedia.org/wiki/YAML) consisting of a **config section** and one or more **named query specifications**. The config section details how mark should *connect to the database*. The rest of the objects in the document describe named SQL queries and *how their results should be displayed*. Markfiles support [Jina2 templating](http://jinja.pocoo.org/docs/dev/) which allows for de-duplication of repeated SQL clauses, parametric queries, and interpolation of the output subprocesses.
+Markfiles are [YAML documents](https://en.wikipedia.org/wiki/YAML) consisting of a **config section** and one or more **named query specifications**. The config section details how mark should **connect to the database**. The rest of the objects in the document describe named SQL queries and **how their results should be displayed**. Markfiles support [Jina2 templating](http://jinja.pocoo.org/docs/dev/) which allows for de-duplication of repeated SQL clauses, parametric queries, and interpolation of the output subprocesses.
 
 ## Markfile location
 
@@ -47,7 +47,7 @@ Starting from the current working-directory, mark will recursively search parent
 
 ## Database connection
 
-Every Markfile must define a top-level object `config` which has the following attributes for specifying *how to connect to the database*:
+Every Markfile must define a top-level object `config` which has the following attributes for specifying **how to connect to the database**:
 
     config:
       host: db.example.com
