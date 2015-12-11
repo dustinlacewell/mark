@@ -116,7 +116,7 @@ class LazyString(basestring):
             self.value = self.partial()
 
 @click.command()
-@click.option('--markfile', '-m', default='markfile.yml',
+@click.option('--markfile', '-m', default='markfile.yml', metavar='',
               help="file containing queries and db details")
 @click.option('--list-queries', '-l', is_flag=True,
               help="list available queries")
